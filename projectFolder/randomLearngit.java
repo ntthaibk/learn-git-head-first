@@ -3,5 +3,6 @@ public class RanDom{
 
     public void randomForReal();
 
+//learn git randomly
     //some changes made by me
 }
