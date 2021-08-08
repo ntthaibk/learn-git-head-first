@@ -5,6 +5,8 @@ public class RANDISHDISI*(@&(#&(*@#&({
         asidhioashdasd
         iosdiosdh
     );
+    CONDFLIOSHDIUSHDISH*(@
+    d8as98dasd));
 
     public void randomForReal();
 
