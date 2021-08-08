@@ -1,5 +1,10 @@
 public class RANDISHDISI*(@&(#&(*@#&({
-    public Random();
+    public Random(
+        asdaskdhiashd
+        dkasiodioasdas
+        asidhioashdasd
+        iosdiosdh
+    );
 
     public void randomForReal();
 
