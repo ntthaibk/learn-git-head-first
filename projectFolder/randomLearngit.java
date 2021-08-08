@@ -1,4 +1,4 @@
-public class RanDom{
+public class RANDISHDISI*(@&(#&(*@#&({
     public Random();
 
     public void randomForReal();
