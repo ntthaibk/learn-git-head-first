@@ -1,5 +1,7 @@
 public class RANDISHDISI*(@&(#&(*@#&({
-    public Random();
+    public Random(
+    CONDFLIOSHDIUSHDISH*(@
+    d8as98dasd));
 
     public void randomForReal();
 
