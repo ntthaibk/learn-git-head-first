@@ -1,5 +1,7 @@
-public class RanDom{
-    public Random();
+public class RANDISHDISI*(@&(#&(*@#&({
+    public Random(
+    CONDFLIOSHDIUSHDISH*(@
+    d8as98dasd));
 
     public void randomForReal();
 
@@ -13,6 +15,8 @@ private boolean isMyServiceRunning(Class<?> serviceClass) {
     }
     return false;
   }
+
+    NOW THERe WILL BE CONFLICT
 
     public void randomForReal();
 
