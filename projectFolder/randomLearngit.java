@@ -8,6 +8,14 @@ public class RanDom{
 
     public void randomForReal();
 
+    public void testToString() {
+        assertEquals(int[].class.getName(), Types.toString(int[].class));
+        assertEquals(int[][].class.getName(), Types.toString(int[][].class));
+        assertEquals(String[].class.getName(), Types.toString(String[].class));
+        Type elementType = List.class.getTypeParameters()[0];
+        assertEquals(elementType.toString(), Types.toString(elementType));
+       }
+
 //learn git randomly
     //some changes made by me
     public void randomForReal();static String toString(Type type) {
@@ -29,6 +37,15 @@ static Class<? extends Annotation> getAnnotationType(AnnotationFormatterFactory<
 }
     //some changes made by me
 
+
+    private void checkHelperVersion(ClassLoader classLoader, String expectedHelperClassName)
+  throws Exception {
+ // Make sure we are actually running with the expected helper implementation
+ Class<?> abstractFutureClass = classLoader.loadClass(AggregateFutureState.class.getName());
+ Field helperField = abstractFutureClass.getDeclaredField("ATOMIC_HELPER");
+ helperField.setAccessible(true);
+ assertEquals(expectedHelperClassName, helperField.get(null).getClass().getSimpleName());
+}
 
     public void randomForReal();
 
